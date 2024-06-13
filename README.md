@@ -10,9 +10,17 @@ By using this, you can ensure you book your preferred showtime and seats before 
 
 ## Installation
 
-1.Built image from Dockerfile
-```Docker build -t earlybird .```
-2.Run the image
-```Docker run -e BOT_TOKEN=YOUR_TOKEN -e CHAT_ID=YOUR_CHAT_ID earlybird```
-3.Set a cron job to run the image every 30 minutes
-```*/30 * * * * Docker run -e BOT_TOKEN=YOUR_TOKEN -e CHAT_ID=YOUR_CHAT_ID -d earlybird```
+1. Built image from Dockerfile
+
+```
+Docker build -t earlybird .
+```
+
+2. Run the image
+```
+Docker run -e BOT_TOKEN=YOUR_TOKEN -e CHAT_ID=YOUR_CHAT_ID earlybird
+```
+3. Set a cron job to run the image every 30 minutes
+```
+*/30 * * * * Docker run -e BOT_TOKEN=YOUR_TOKEN -e CHAT_ID=YOUR_CHAT_ID -d earlybird
+```
