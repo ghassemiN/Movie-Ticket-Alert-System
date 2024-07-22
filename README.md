@@ -6,7 +6,7 @@ By using this, you can ensure you book your preferred showtime and seats before 
 
 - Automated checks for ticket availability
 - Customizable notifications for specific movies and showtimes
-- Fast and efficient ticket alerts to maximize your chances of securing the best seats
+- Fast and efficient ticket alerts to maximize your chances of securing the best seats.
 
 ## Installation
 
